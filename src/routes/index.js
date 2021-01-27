@@ -20,7 +20,7 @@ const locales = {
 class App extends React.Component {
   componentDidMount() {}
 
-  componentWillMount() {
+  UNSAFE_componentWillMount() {
     this.loadLocales();
   }
 
